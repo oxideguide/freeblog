@@ -1,0 +1,77 @@
+/* Custom Infobox for Blogger */
+.blogger-infobox {
+    width: 300px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #333333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 10px 0 10px 20px;
+    float: right; /* Floats the box to the right like a wiki */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.blogger-infobox .info-title {
+    background-color: #d03f27; /* Header Red */
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+
+.blogger-infobox .info-image {
+    background-color: #262626;
+    text-align: center;
+    padding: 15px;
+}
+
+.blogger-infobox .info-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.blogger-infobox .info-description {
+    background-color: #222222;
+    padding: 12px;
+    font-style: italic;
+    font-size: 0.95em;
+    line-height: 1.4;
+    border-bottom: 1px solid #333333;
+}
+
+.blogger-infobox .info-section-header {
+    background-color: #c0392b;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.05em;
+}
+
+.blogger-infobox .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.blogger-infobox .info-label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.blogger-infobox .info-value {
+    color: #cccccc;
+}
+
+/* Make it responsive on mobile screens */
+@media (max-width: 600px) {
+    .blogger-infobox {
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
