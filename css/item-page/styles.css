@@ -75,3 +75,16 @@
         margin: 10px 0;
     }
 }
+
+.info-row-image-container {
+          position: relative;
+          text-align: center;
+        }
+/* 2. Position the text relative to the container edges */
+.info-row-image-bottom-right-text {
+    position: absolute;
+    bottom: 2px;  /* Distance from the bottom edge */
+    right: 0px;   /* Distance from the right edge */
+}
+
+
