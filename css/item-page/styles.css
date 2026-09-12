@@ -77,14 +77,31 @@
 }
 
 .info-row-image-container {
-          position: relative;
-          text-align: center;
-        }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    height: 55px;
+    width: 55px;
+}
+
+.info-row-image-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 /* 2. Position the text relative to the container edges */
 .info-row-image-bottom-right-text {
     position: absolute;
-    bottom: 2px;  /* Distance from the bottom edge */
+    bottom: 0px;  /* Distance from the bottom edge */
     right: 0px;   /* Distance from the right edge */
     color: white;
 }
 
+.blogger-infobox .image-row {
+  display: flex;
+  justify-content: center; /* Keeps items together on the left */
+  padding: 8px 12px;
+  border-bottom: 1px solid #2a2a2a;
+  gap: 10px;
+}
