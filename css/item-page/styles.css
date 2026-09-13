@@ -1,4 +1,3 @@
-/* Custom Infobox for Blogger */
 .blogger-infobox {
     width: 300px;
     background-color: #1a1a1a;
@@ -7,12 +6,12 @@
     font-family: Arial, sans-serif;
     font-size: 14px;
     margin: 10px 0 10px 20px;
-    float: right; /* Floats the box to the right like a wiki */
+    float: right;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .blogger-infobox .info-title {
-    background-color: #d0432d; /* Header Red */
+    background-color: #d0432d;
     color: #ffffff;
     font-weight: bold;
     font-size: 1.5em;
@@ -67,7 +66,6 @@
     color: #cccccc;
 }
 
-/* Make it responsive on mobile screens */
 @media (max-width: 600px) {
     .blogger-infobox {
         float: none;
@@ -90,17 +88,16 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* 2. Position the text relative to the container edges */
 .info-row-image-bottom-right-text {
     position: absolute;
-    bottom: 0px;  /* Distance from the bottom edge */
-    right: 0px;   /* Distance from the right edge */
+    bottom: 0px;
+    right: 0px;
     color: white;
 }
 
 .blogger-infobox .image-row {
   display: flex;
-  justify-content: center; /* Keeps items together on the left */
+  justify-content: center;
   padding: 8px 12px;
   border-bottom: 1px solid #2a2a2a;
   gap: 10px;
