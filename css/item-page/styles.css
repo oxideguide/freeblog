@@ -105,5 +105,7 @@
 
 .para-content {
   padding: 10px 0 0 0;
-  margin: 10px 0 0 0;
+}
+.para-blocks {
+  padding: 20px 0 0 0;
 }
