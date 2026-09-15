@@ -3,8 +3,8 @@
 }
 
 .boxed-list {
-    border: 2px solid #d0432d;
-    width: fit-content;
+    border: 1px solid #d0432d;
+    width: 200px;
 }
 
 .header {
