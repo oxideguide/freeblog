@@ -49,9 +49,9 @@
 }
 
 .item-img-container {
-  width: 100%;
+  width: 64px;
   height: 64px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .item-label {
