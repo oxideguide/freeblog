@@ -52,7 +52,28 @@
   font-size: 16px;
   font-weight: 700;
   color: #d0432d;
-  line-height: 1.25;
+  word-wrap: break-word;
+}
+
+.item-more-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 32px);
+  grid-template-rows: repeat(2, 32px);
+  align-content: center;
+  justify-content: center;
+}
+
+.more-thumb {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.more-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  font-style: italic;
   word-wrap: break-word;
 }
 
